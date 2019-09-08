@@ -1,0 +1,12 @@
+export enum AUTH {
+  SIGN_IN = "SIGN_IN",
+  SIGNIN_SUCCESS = "SIGNIN_SUCCESS",
+  SIGNIN_FAIL = "SIGNIN_FAIL",
+
+  SIGN_OUT = "SIGN_OUT"
+}
+
+export enum LOADER {
+  START = "START",
+  END = "END"
+}
